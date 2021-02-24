@@ -21,6 +21,7 @@ html{
     grid-template-columns: 100vw;
     grid-template-rows: 100vh;
     overflow: hidden;
+	height: auto;
 }
 .shadow{
 	box-shadow: 12px 19px 40px black;
@@ -116,8 +117,8 @@ ul{
 	grid-area: 1 / 2 / span 2 / span 1;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 62% 100%);
 	background:linear-gradient(180deg,rgba(0,0,0,0),#ff72c0 );;
-  }
-  .ondas-grid{
+}
+.ondas-grid{
 	grid-area: 1 / 1 / span 5 / span 12;
 	background: rgb(46, 46, 46);
 	margin: 10px;
@@ -127,14 +128,14 @@ ul{
 	grid-template-rows: 30% 70%;
 	color: #fff;
 	overflow: hidden;
-  }
-  .ondas-grid svg{
+}
+.ondas-grid svg{
 	grid-area: 1 / 1 / span 1 / span 2;
 	z-index:0;
-  }
-  .onda-3{
+}
+.onda-3{
 	background: (90deg,#755bea,#ff72c0 );
-  }
+}
 /*galaxy fold*/
 @media (max-width: 414px) {
 	.cartao{
@@ -159,17 +160,13 @@ ul{
 	}
 	.grid{
 		grid-template-rows: 100vh;
+		
 	}
 	.fundo{
 		background: transparent;
 	}
 		
   }
-
-  @media (min-width: 1050px) {
-	
-  }
-
   
   
  
