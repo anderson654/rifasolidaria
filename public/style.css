@@ -20,7 +20,7 @@ body{
 .grid{
 	display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: minmax(min-content, 100vh);
+    grid-template-rows: minmax(min-content, 100%);
     overflow: hidden;
    
 }
